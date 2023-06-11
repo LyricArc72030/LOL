@@ -35,7 +35,7 @@ shared.createSpot = function()
     SafeSpot3.Name = "SpotBarrier2"
     SafeSpot3.Anchored = true
     SafeSpot3.Position = Vector3.new(-99980, 131, -1500)
-    SafeSpot3.Size = Vector3.new(45, 100000, 1)
+    SafeSpot3.Size = Vector3.new(1, 100000, 45)
     SafeSpot3.Transparency = .5
     SafeSpot3.Parent = workspace:FindFirstChild("Spot")
 
